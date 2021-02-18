@@ -1,0 +1,137 @@
+/* Custom font*/
+@font-face {
+    font-family: 'OpenSans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+/* Global declaration*/
+html
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    background-color: #262B37
+}
+body
+{
+    margin: 0px;
+}
+/* Banner */
+#banner
+{
+    background-image: url("../images/header-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    margin-bottom: 0px;
+    height: 550px;
+}
+#banner-text
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 560px;
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+/*  Nav menu */
+nav
+{
+    margin: auto;
+    background-color: #1e222b;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+nav a
+{
+    color: #7e7e7f;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #1e222b
+}
+nav a:active
+{
+    background-color: #1B1F29;
+}
+nav a:hover
+{
+    color: #FFF;
+}
+/* Section */
+section
+{
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 300;
+    border-bottom: 1px solid #CCC;
+}
+section h3, h4
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+section h4
+{
+    font-size: 20px;
+    margin-top: 5px;
+}
+section p
+{
+    font-size: 16px;
+}
+#about p img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: auto;
+}
+#competence ul
+{
+    font-size: 18px;
+    list-style: none;
+}
+/* Form*/
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #424756;
+    border-radius: 5px;
+    background-color: #424756;
+    padding: 10px;
+}
+form *
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+/* Footer*/
+footer
+{
+    display: flex;
+}
+#credits
+{
+    padding-left: 50px;
+    font-weight: normal;
+    text-decoration: none;
+}
+#credits a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+#credits a:hover
+{
+    color: #CCC;
+}

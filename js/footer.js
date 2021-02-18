@@ -1,0 +1,18 @@
+document.writeln('<footer>');
+document.writeln('     <div id="form">');
+document.writeln('         <h5>Me contacter :</h5>');
+document.writeln('         <form action=/"https://formspree.io/f/xeqpwken/" method=/"POST/">');
+document.writeln('             <label  for=/"user_name/">Votre nom</label>');
+document.writeln('             <input type=/"text/" name=/"user_name/"/>');
+document.writeln('             <label for=/"user_mail/">Votre adresse mail:</label>');
+document.writeln('             <input type=/"text/" name=/"user_mail/">');
+document.writeln('             <label for=/"user_message/">Votre message:</label>');
+document.writeln('             <textarea name=/"user_message/"></textarea>');
+document.writeln('             <button type=/"submit/">Envoyer</button>');
+document.writeln('         </form>');
+document.writeln('   </div>');
+document.writeln('   <div id="credits">');
+document.writeln('         <h5>Design inspiré de <a href=/"http://themeelite.com/demos/flato/template-2//">Flato</a></h5>');
+document.writeln('         <h5>Site web fait par Kevin Decoly</h5>');
+document.writeln('   </div>');
+document.writeln(' </footer>');
